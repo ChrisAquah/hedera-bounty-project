@@ -1,0 +1,36 @@
+Project Title:
+Audit Log and Analytics Publisher using Hedera Python SDK
+
+Summary:
+This project demonstrates how to log and analyze system events, then publish a summary to the Hedera testnet using Python.
+
+
+Steps Completed:
+
+Created and initialized a Hedera client with account credentials.
+
+Ran hedera_audit_logger.py to create topic 0.0.7153194 and record sample logs.
+
+Analyzed the log data in data.csv using pandas.
+
+Published analytics summary to topic 0.0.7153194 using analyze_and_publish.py.
+
+
+Evidence:
+
+Topic created: 0.0.7153194
+
+Summary successfully published to Hedera testnet
+
+Screenshots attached:
+
+Screenshot 2025-10-28 205229. hedera_topic_creation_publish_summary.png
+
+
+Tools Used:
+
+Python 3
+
+Hedera SDK for Python
+
+pandas
